@@ -58,16 +58,16 @@ The code has a main function called `Advices`, which is exported as default. Thi
 
 At the beginning of the code, the necessary React Native components are imported, such as `View`, `Text`, `TouchableOpacity`, and `TextInput`. Additionally, `useState` is imported to handle the application's state.
 
-![image](https://github.com/RamalhoVr/API-GPT-4-in-react/assets/116125017/2737f1b9-b6c2-445f-a983-87328e21174a)
+![image](https://github.com/RamalhoVr/API-GPT-4-em-react/assets/116125017/2737f1b9-b6c2-445f-a983-87328e21174a)
 
 Next, a constant `ADVICE_API_URL` is defined to store the GPT-4 API key. This key is used to make the API request and obtain the responses.
 
-![image](https://github.com/RamalhoVr/API-GPT-4-in-react/assets/116125017/3b94bc46-59ad-4b20-8b50-a6fd8cb6c615)
+![image](https://github.com/RamalhoVr/API-GPT-4-em-react/assets/116125017/3b94bc46-59ad-4b20-8b50-a6fd8cb6c615)
 
 
 Inside the `Advices` function, two states are defined using `useState`. The `advice` state stores the question entered by the user, and the `response` state stores the response obtained from the API.
 
-![image](https://github.com/RamalhoVr/API-GPT-4-in-react/assets/116125017/dfdd5353-2d4f-4ccd-9ebb-a15f8713fcd5)
+![image](https://github.com/RamalhoVr/API-GPT-4-em-react/assets/116125017/dfdd5353-2d4f-4ccd-9ebb-a15f8713fcd5)
 
 
 The `fetchAdvices` function is responsible for making the request to the GPT-4 API. The `fetch` function is used to send a POST request to the API URL. The request headers are defined, including the content type and authorization using the API key. The request body contains a JSON object with the user's question and additional context.
@@ -79,12 +79,11 @@ After sending the request, the `then` function is used to get the API response. 
 
 In the return of the `Advices` function, a `View` component is rendered that contains the elements of the application. There is a `TextInput` component for the user to enter the question, a `TouchableOpacity` component that triggers the `fetchAdvices` function when pressed (to send the question), and a `Text` component to display the response obtained from the API.
 
-![image](https://github.com/RamalhoVr/API-GPT-4-in-react/assets/116125017/285d45ce-e667-4cc9-bb5b-7f389aa950a5)
+![image](https://github.com/RamalhoVr/API-GPT-4-em-react/assets/116125017/285d45ce-e667-4cc9-bb5b-7f389aa950a5)
 
 Finally, a CSS style is defined for the application's components, including the container style, button style, text input style, and response text style.
 
-![image](https://github.com/RamalhoVr/API-GPT-4-in-react/assets/116125017/ea4021ba-1ca2-4f9e-8f87-13ea7a3383ce)
-
+![image](https://github.com/RamalhoVr/API-GPT-4-em-react/assets/116125017/ea4021ba-1ca2-4f9e-8f87-13ea7a3383ce)
 
 ## Notes
 
